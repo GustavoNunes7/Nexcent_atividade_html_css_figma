@@ -123,6 +123,10 @@ main{
 
 }
 
+article p{
+    color: var(--color-neutral-d_grey);
+}
+
 .cards-container{
     display: flex;
     justify-content: center;
@@ -179,5 +183,66 @@ main{
 /* FIM PELLENTESQUE */
 
 /* RODAPÉ */
+
+footer{
+    background-color: var(--color-neutral-black);
+    text-decoration: none;
+   
+}
+
+footer  a,p {
+     color: var(--color-neutral-silver);
+     gap: 11px;
+}
+
+.copyright-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+
+}
+
+.footer-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+footer li {
+    list-style-type: none;
+    color: var(--color-neutral-silver);
+    gap:8px;
+}
+
+footer h2 {
+    display: flex;
+    color: var(--color-neutral-white);
+    gap: 6px;
+}
+.foot-email{
+    display: flex;
+    justify-content: flex-end;
+
+    align-self: center;
+    height: 100px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+
+    
+}
+
 /* FIM RODAPÉ */
 
